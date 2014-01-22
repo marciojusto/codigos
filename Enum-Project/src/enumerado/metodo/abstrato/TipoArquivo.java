@@ -1,4 +1,4 @@
-package metodo.abstrato;
+package enumerado.metodo.abstrato;
 
 public interface TipoArquivo {
 

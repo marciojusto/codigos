@@ -1,17 +1,17 @@
-package metodo.abstrato;
+package enumerado.metodo.abstrato;
 
-public class Rtf implements TipoArquivo {
+public class Xls implements TipoArquivo {
 
 	private String descricao;
 	private String tipo;
 	
-	public static Rtf getInstance() {
-		return new Rtf();
+	public static Xls getInstance() {
+		return new Xls();
 	}
 	
-	public Rtf() {
+	public Xls() {
 		this.descricao = "pdf";
-		this.tipo = "eu tenho um tipo porra!";
+		this.tipo = null;
 	}
 
 	public String getDescricao() {

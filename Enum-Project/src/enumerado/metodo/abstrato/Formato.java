@@ -1,4 +1,4 @@
-package metodo.abstrato;
+package enumerado.metodo.abstrato;
 
 import java.util.HashMap;
 import java.util.Map;

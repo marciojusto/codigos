@@ -1,4 +1,4 @@
-package metodo.abstrato;
+package enumerado.metodo.abstrato;
 
 public class Pdf implements TipoArquivo {
 
