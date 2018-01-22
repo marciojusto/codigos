@@ -4,14 +4,13 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <script type="text/javascript" src="resources/script/angular.min.js"></script>
-<script type="text/javascript" src="resources/script/primeiroController.js"></script>
+<script type="text/javascript" src="resources/script/routerController.js"></script>
 </head>
-<body ng-controller="primeiroController as user" id="corpo">
+<body id="corpo">
 
-	<form action="" name="nossoForm">
-		<input type="text" name="nome" ng-model="nome" required="required">
-		<button>Salvar</button>
-	</form>	
-
+	<h1>Rota Deep Linking Exemplo</h1>
+	<div ng-view>
+		
+	</div>
 </body>
 </html>
