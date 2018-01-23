@@ -8,6 +8,7 @@ app.config(function($routeProvider) {
 	.when("/", {controller: "listController", templateUrl: "list.html"}) //listar
 	.when("/edit/:name", {controller: "editController", templateUrl: "form.html"}) //editar
 	.when("/new", {controller: "newController", templateUrl: "form.html"}) //novo
+	.when("/expressoes", {controller: "expressoesController", templateUrl: "expressoes.html"})
 	.otherwise({redirectTo: "/"});
 });
 
@@ -19,6 +20,12 @@ app.run(function($rootScope) {
 app.controller('listController', ['$scope', '$routeParams', function($scope, $routeParams) {
 	
 }]);
+
+app.controller('expressoesController', ["$scope",
+	function($scope) {
+		$scope.title = "Expressões no Angular JS";
+	}
+]);
 
 //$scope é o escopo da aplicação html
 //$location redirecionamento entre rotas
