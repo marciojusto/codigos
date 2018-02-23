@@ -1,0 +1,5 @@
+File - Criar arquivos
+FileReader - Criar e Ler arquivos
+BufferedReader - Otimização da classe FileReader para lidar com grandes arquivos bufferizando em memória
+FileWriter - Escrita em arquivos
+BufferedWriter - Escrita em arquivos bufferizando em memória

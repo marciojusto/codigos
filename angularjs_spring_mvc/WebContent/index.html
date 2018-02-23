@@ -12,5 +12,17 @@
 	<div ng-view>
 		
 	</div>
+	
+	<br/>
+	
+	<div w3-test-directive></div>
+	
+	<br/>
+	
+	<form name="myForm">
+		Email:
+		<input type="email" name="myAddress" ng-model="text" />
+		<span ng-show="myForm.myAddress.$error.email">Não é um e-mail válido</span>
+	</form>
 </body>
 </html>

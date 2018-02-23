@@ -54,3 +54,10 @@ app.controller('newController', ['$scope', '$routeParams', '$rootScope', '$route
 		}
 	}
 ]);
+
+//Criando uma Diretiva
+app.directive("w3TestDirective", function() {
+	return {
+		template: "Fui feito em um contrutor de diretriz!"
+	};
+});
